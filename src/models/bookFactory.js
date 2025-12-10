@@ -8,7 +8,7 @@ export function addNewBook(id, title, author, category, year, copies) {
     totalCopies: copies,
     availableCopies: true,
     timesLoaned: 0,
-    rating: "null",
+    rating: null,
   };
   return newBook;
 }
